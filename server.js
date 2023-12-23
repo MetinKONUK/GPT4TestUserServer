@@ -3,8 +3,10 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 const dotenv = require('dotenv');
 const logger = require('./logger');
+// No need to require 'bcrypt' here if it's only used in the routes
 
-const userModel = require('./models/user');
+// Import routes
+const userRoutes = require('./routes/userRoutes'); // Adjust the path as needed
 
 dotenv.config();
 const { SERVER_PORT, CLIENT_URL, DATABASE_URI } = process.env;
@@ -23,8 +25,11 @@ server.use(
     })
 );
 
+// Use the user routes
+server.use('/api/users', userRoutes);
+
 db.on('error', error => {
-    logger.error(`DB conection error, message: ${error.message}`);
+    logger.error(`DB connection error, message: ${error.message}`);
 });
 
 db.once('open', () => {
