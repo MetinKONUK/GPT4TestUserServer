@@ -28,6 +28,14 @@ const UserSchema = new mongoose.Schema(
             presencePenalty: { type: Number, default: 0 },
             // Add other settings as needed
         },
+        inputEditorSettings: {
+            type: Object,
+            default: {},
+        },
+        outputEditorSettings: {
+            type: Object,
+            default: {},
+        },
     },
     { versionKey: false, collection: 'UsersCollection' }
 )

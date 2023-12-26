@@ -66,6 +66,61 @@ router.post('/register', async (req, res) => {
     }
 })
 
+router.post('/updateEditorSettings', async (req, res) => {
+    try {
+        const { userIdentifier, settings, type } = req.body
+        let update = {}
+        if (type === 'input') {
+            update.inputEditorSettings = settings
+        } else if (type === 'output') {
+            update.outputEditorSettings = settings
+        }
+
+        await userModel.findOneAndUpdate(
+            {
+                $or: [
+                    { username: userIdentifier },
+                    { userEmailAddress: userIdentifier },
+                ],
+            },
+            { $set: update },
+            { new: true }
+        )
+        res.status(200).send({
+            message: 'Editor settings updated successfully',
+        })
+    } catch (error) {
+        res.status(500).send({
+            message: `Error updating editor settings: ${error.message}`,
+        })
+    }
+})
+
+router.get('/getEditorSettings/:userIdentifier', async (req, res) => {
+    try {
+        const userIdentifier = req.params.userIdentifier
+        const user = await userModel.findOne({
+            $or: [
+                { username: userIdentifier },
+                { userEmailAddress: userIdentifier },
+            ],
+        })
+
+        if (!user) {
+            return res.status(404).send({ message: 'User not found' })
+        }
+
+        res.status(200).send({
+            inputEditorSettings: user.inputEditorSettings,
+            outputEditorSettings: user.outputEditorSettings,
+        })
+    } catch (error) {
+        res.status(500).send({
+            message: `Error fetching editor settings: ${error.message}`,
+        })
+    }
+})
+
 router.post('/updateModelSettings', async (req, res) => {
     const { userIdentifier, settings } = req.body
     console.log(userIdentifier)
