@@ -207,3 +207,201 @@
 2023-12-26 16:34:14 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
 2023-12-26 16:35:26 info: server started, PORT=5000
 2023-12-26 16:35:26 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 15:54:39 info: server started, PORT=5000
+2023-12-27 15:54:39 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 16:02:28 info: server started, PORT=5000
+2023-12-27 16:02:28 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 16:05:03 info: server started, PORT=5000
+2023-12-27 16:05:03 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 16:24:29 info: server started, PORT=5000
+2023-12-27 16:24:29 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 16:27:04 info: server started, PORT=5000
+2023-12-27 16:27:04 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 16:56:10 info: server started, PORT=5000
+2023-12-27 16:56:10 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 17:15:59 info: server started, PORT=5000
+2023-12-27 17:15:59 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 17:39:42 info: server started, PORT=5000
+2023-12-27 17:39:42 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 17:39:44 info: server started, PORT=5000
+2023-12-27 17:39:44 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 17:39:50 info: server started, PORT=5000
+2023-12-27 17:39:50 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 17:56:20 info: server started, PORT=5000
+2023-12-27 17:56:20 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 17:57:03 info: server started, PORT=5000
+2023-12-27 17:57:03 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 17:57:22 info: server started, PORT=5000
+2023-12-27 17:57:22 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 17:57:54 info: server started, PORT=5000
+2023-12-27 17:57:54 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 17:58:03 info: server started, PORT=5000
+2023-12-27 17:58:03 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 17:59:02 info: server started, PORT=5000
+2023-12-27 17:59:02 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 21:12:58 info: server started, PORT=5000
+2023-12-27 21:12:58 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 21:13:38 info: server started, PORT=5000
+2023-12-27 21:13:38 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 21:13:51 info: server started, PORT=5000
+2023-12-27 21:13:51 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 21:13:56 info: server started, PORT=5000
+2023-12-27 21:13:56 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 21:14:10 info: server started, PORT=5000
+2023-12-27 21:14:10 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 21:14:13 info: server started, PORT=5000
+2023-12-27 21:14:13 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 21:14:24 info: server started, PORT=5000
+2023-12-27 21:14:24 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 21:14:26 info: server started, PORT=5000
+2023-12-27 21:14:26 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 21:15:27 info: server started, PORT=5000
+2023-12-27 21:15:27 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 21:15:33 info: server started, PORT=5000
+2023-12-27 21:15:33 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 21:23:43 info: server started, PORT=5000
+2023-12-27 21:23:43 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 21:23:54 info: server started, PORT=5000
+2023-12-27 21:23:54 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 21:24:17 info: server started, PORT=5000
+2023-12-27 21:24:17 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 21:24:27 info: server started, PORT=5000
+2023-12-27 21:24:27 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 21:28:27 info: server started, PORT=5000
+2023-12-27 21:28:27 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 21:28:30 info: server started, PORT=5000
+2023-12-27 21:28:30 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 21:28:46 info: server started, PORT=5000
+2023-12-27 21:28:46 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 21:28:49 info: server started, PORT=5000
+2023-12-27 21:28:49 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 21:29:19 info: server started, PORT=5000
+2023-12-27 21:29:19 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 21:29:28 info: server started, PORT=5000
+2023-12-27 21:29:28 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 21:29:57 info: server started, PORT=5000
+2023-12-27 21:29:57 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 21:30:08 info: server started, PORT=5000
+2023-12-27 21:30:08 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 21:41:05 info: server started, PORT=5000
+2023-12-27 21:41:05 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 21:41:33 info: server started, PORT=5000
+2023-12-27 21:41:34 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 21:41:40 info: server started, PORT=5000
+2023-12-27 21:41:40 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 21:41:55 info: server started, PORT=5000
+2023-12-27 21:41:55 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 21:41:58 info: server started, PORT=5000
+2023-12-27 21:41:58 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 21:42:12 info: server started, PORT=5000
+2023-12-27 21:42:12 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 21:42:14 info: server started, PORT=5000
+2023-12-27 21:42:14 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 21:42:27 info: server started, PORT=5000
+2023-12-27 21:42:27 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 21:43:31 info: server started, PORT=5000
+2023-12-27 21:43:31 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 21:43:43 info: server started, PORT=5000
+2023-12-27 21:43:43 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 21:44:10 info: server started, PORT=5000
+2023-12-27 21:44:10 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 21:44:21 info: server started, PORT=5000
+2023-12-27 21:44:21 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 21:45:26 info: server started, PORT=5000
+2023-12-27 21:45:26 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 21:45:38 info: server started, PORT=5000
+2023-12-27 21:45:38 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 21:46:35 info: server started, PORT=5000
+2023-12-27 21:46:35 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 21:46:45 info: server started, PORT=5000
+2023-12-27 21:46:45 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 21:49:20 info: server started, PORT=5000
+2023-12-27 21:49:20 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 21:49:27 info: server started, PORT=5000
+2023-12-27 21:49:27 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 21:51:04 info: server started, PORT=5000
+2023-12-27 21:51:04 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 21:51:07 info: server started, PORT=5000
+2023-12-27 21:51:07 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 21:52:02 info: server started, PORT=5000
+2023-12-27 21:52:02 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 21:53:45 info: server started, PORT=5000
+2023-12-27 21:53:45 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 22:04:47 info: server started, PORT=5000
+2023-12-27 22:04:47 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 22:06:31 info: server started, PORT=5000
+2023-12-27 22:06:31 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 22:07:35 info: server started, PORT=5000
+2023-12-27 22:07:35 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 22:08:23 info: server started, PORT=5000
+2023-12-27 22:08:23 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 22:09:18 info: server started, PORT=5000
+2023-12-27 22:09:18 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 22:11:10 info: server started, PORT=5000
+2023-12-27 22:11:10 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 22:18:16 info: server started, PORT=5000
+2023-12-27 22:18:16 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 22:22:00 info: server started, PORT=5000
+2023-12-27 22:22:00 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 22:27:29 info: server started, PORT=5000
+2023-12-27 22:27:29 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 22:29:25 info: server started, PORT=5000
+2023-12-27 22:29:25 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 22:32:44 info: server started, PORT=5000
+2023-12-27 22:32:44 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 22:56:55 info: server started, PORT=5000
+2023-12-27 22:56:55 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 22:59:03 info: server started, PORT=5000
+2023-12-27 22:59:03 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 23:00:12 info: server started, PORT=5000
+2023-12-27 23:00:12 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 23:03:52 info: server started, PORT=5000
+2023-12-27 23:03:52 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 23:05:15 info: server started, PORT=5000
+2023-12-27 23:05:15 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 23:07:25 info: server started, PORT=5000
+2023-12-27 23:07:25 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 23:14:35 info: server started, PORT=5000
+2023-12-27 23:14:35 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 23:15:02 info: server started, PORT=5000
+2023-12-27 23:15:02 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 23:17:55 info: server started, PORT=5000
+2023-12-27 23:17:55 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 23:20:14 info: server started, PORT=5000
+2023-12-27 23:20:14 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 23:21:05 info: server started, PORT=5000
+2023-12-27 23:21:05 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 23:21:35 info: server started, PORT=5000
+2023-12-27 23:21:35 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 23:23:20 info: server started, PORT=5000
+2023-12-27 23:23:20 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 23:26:36 info: server started, PORT=5000
+2023-12-27 23:26:36 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 23:26:57 info: server started, PORT=5000
+2023-12-27 23:26:57 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 23:27:13 info: server started, PORT=5000
+2023-12-27 23:27:13 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 23:27:44 info: server started, PORT=5000
+2023-12-27 23:27:44 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 23:28:06 info: server started, PORT=5000
+2023-12-27 23:28:06 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 23:28:07 info: server started, PORT=5000
+2023-12-27 23:28:07 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 23:37:10 info: server started, PORT=5000
+2023-12-27 23:37:10 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 23:38:21 info: server started, PORT=5000
+2023-12-27 23:38:21 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 23:38:57 info: server started, PORT=5000
+2023-12-27 23:38:57 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 23:39:31 info: server started, PORT=5000
+2023-12-27 23:39:31 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 23:41:01 info: server started, PORT=5000
+2023-12-27 23:41:01 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 23:41:17 info: server started, PORT=5000
+2023-12-27 23:41:17 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 23:41:40 info: server started, PORT=5000
+2023-12-27 23:41:40 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 23:45:03 info: server started, PORT=5000
+2023-12-27 23:45:03 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB
+2023-12-27 23:51:00 info: server started, PORT=5000
+2023-12-27 23:51:00 info: connected to DB: mongodb://localhost:27017/GPT4TestUserDB

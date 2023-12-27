@@ -2,10 +2,10 @@
   "name": "userserver",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "npm run test",
-    "start": "nodemon server.js",
+    "start": "nodemon index.js",
     "prettier-format": "prettier --write ."
   },
   "author": "metinkonuk@hotmail.com",
