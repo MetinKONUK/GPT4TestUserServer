@@ -5,6 +5,7 @@ const dotenv = require('dotenv')
 const logger = require('./logger')
 
 // Import routes
+const testGenerationHistories = require('./routes/testGenerationHistoriesRoutes')
 const editorSettingsRoutes = require('./routes/editorSettingsRoutes')
 const modelSettingsRoutes = require('./routes/modelSettingsRoutes')
 const executionTerminalSettingsRoutes = require('./routes/executionTerminalSettingsRoutes')
@@ -29,6 +30,7 @@ server.use(
 )
 
 // Use routes
+server.use('/api/users/testGenerationHistories', testGenerationHistories)
 server.use('/api/users/editorSettings', editorSettingsRoutes)
 server.use('/api/users/modelSettings', modelSettingsRoutes)
 server.use(

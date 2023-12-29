@@ -7,7 +7,7 @@ const ModelSettingsSchema = new mongoose.Schema(
         temperature: { type: Number, default: 1.5 },
         maxLength: { type: Number, default: 4096 },
         stopSequences: { type: [String], default: [] },
-        topP: { type: Number, default: 1.5 },
+        topP: { type: Number, default: 0.8 },
         frequencyPenalty: { type: Number, default: 1.5 },
         presencePenalty: { type: Number, default: 1.5 },
         userId: {

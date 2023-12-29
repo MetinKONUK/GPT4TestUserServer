@@ -28,6 +28,10 @@ const UserSchema = new mongoose.Schema(
             type: mongoose.Schema.Types.ObjectId,
             ref: 'ModelSettings',
         },
+        testGenerationHistoryId: {
+            type: mongoose.Schema.Types.ObjectId,
+            ref: 'TestGenerationHistories',
+        },
     },
     { versionKey: false, collection: 'UsersCollection' }
 )
