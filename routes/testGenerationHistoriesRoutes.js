@@ -108,4 +108,33 @@ router.post('/saveTestGenerationResults', async (req, res) => {
     }
 })
 
+router.get(
+    '/getTestGenerationHistories/:userIdentifier/:historyElementCount',
+    async (req, res) => {
+        console.log(req.body)
+        try {
+            const { userIdentifier, historyElementCount } = req.params
+            const user = await User.findOne({
+                $or: [{ username: userIdentifier }, { email: userIdentifier }],
+            })
+            console.log(user)
+            if (!user) {
+                return res.status(404).send('User not found')
+            }
+
+            // Then, find the test generation histories for this user
+            const histories = await TestGenerationHistories.find({
+                userId: user._id,
+            }).select({
+                testGenerationHistories: { $slice: -historyElementCount },
+            })
+            console.log(histories)
+            res.json(histories)
+        } catch (error) {
+            console.log(error.message)
+            res.status(500).send(error.message)
+        }
+    }
+)
+
 module.exports = router

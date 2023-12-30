@@ -32,6 +32,10 @@ const UserSchema = new mongoose.Schema(
             type: mongoose.Schema.Types.ObjectId,
             ref: 'TestGenerationHistories',
         },
+        userActionsRecapId: {
+            type: mongoose.Schema.Types.ObjectId,
+            ref: 'UserActionsRecap',
+        },
     },
     { versionKey: false, collection: 'UsersCollection' }
 )
