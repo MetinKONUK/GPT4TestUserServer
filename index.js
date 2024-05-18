@@ -12,6 +12,7 @@ const modelSettingsRoutes = require('./routes/modelSettingsRoutes')
 const executionTerminalSettingsRoutes = require('./routes/executionTerminalSettingsRoutes')
 const specialCommandTerminalSettingsRoutes = require('./routes/specialCommandTerminalSettingsRoutes')
 const authRoutes = require('./routes/authRoutes')
+const comparisonResultsHistories = require('./routes/modelComparisonHistoryRoutes')
 
 dotenv.config()
 const { SERVER_PORT, CLIENT_URL, DATABASE_URI } = process.env
@@ -44,6 +45,7 @@ server.use(
     specialCommandTerminalSettingsRoutes
 )
 server.use('/api/auth', authRoutes)
+server.use('/api/users/comparisonResults', comparisonResultsHistories)
 
 db.on('error', error => {
     logger.error(`DB connection error, message: ${error.message}`)
