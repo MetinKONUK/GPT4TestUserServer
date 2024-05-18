@@ -56,11 +56,11 @@ router.get('/getEditorSettings/:userIdentifier', async (req, res) => {
             })
             .populate({
                 path: 'inputEditorSettingsId',
-                select: '-_id', // Exclude the _id field
+                select: '-_id -userId', // Exclude the _id and userId fields
             })
             .populate({
                 path: 'outputEditorSettingsId',
-                select: '-_id', // Exclude the _id field
+                select: '-_id -userId', // Exclude the _id and userId fields
             })
 
         if (!user) {
