@@ -11,6 +11,99 @@ const ModelSettingsModel = require('../models/modelSettingsModel')
 
 const router = express.Router()
 
+router.post('/updateUserCredentials', async (req, res) => {
+    try {
+        let {
+            userIdentifier,
+            newUsername,
+            newEmailAddress,
+            authenticationPassword,
+        } = req.body
+
+        const existingUser = await UserModel.findOne({
+            $or: [
+                { username: newUsername },
+                { userEmailAddress: newEmailAddress },
+            ],
+        })
+        if (existingUser) {
+            // Check if the existing user is the same as the user making the request
+            if (
+                existingUser.username === userIdentifier ||
+                existingUser.userEmailAddress === userIdentifier
+            ) {
+                // If it's the same user, continue with the update
+                console.log('Same user updating')
+            } else {
+                // If it's a different user, return an error
+                console.log('user exists')
+                return res.status(200).send({
+                    type: 'error',
+                    message: 'Username or email already exists.',
+                })
+            }
+        }
+
+        // Find the user by username or email
+        const user = await UserModel.findOne({
+            $or: [
+                { username: userIdentifier },
+                { userEmailAddress: userIdentifier },
+            ],
+        })
+
+        if (!user) {
+            return res.status(200).send({
+                type: 'error',
+                message: 'User not found',
+            })
+        }
+
+        // Check if authentication password matches user password
+        bcrypt.compare(
+            authenticationPassword,
+            user.userPassword,
+            async (err, isMatch) => {
+                if (err) {
+                    console.log('Error in bcrypt comparison:', err)
+                    return res.status(200).send({
+                        type: 'error',
+                        message: 'Error validating authentication credentials',
+                    })
+                }
+
+                if (!isMatch) {
+                    console.log('invalid password')
+                    return res.status(200).send({
+                        type: 'error',
+                        message: 'Invalid authentication password',
+                    })
+                }
+
+                // Authentication successful, update user credentials
+                if (newUsername) {
+                    user.username = newUsername
+                }
+                if (newEmailAddress) {
+                    user.userEmailAddress = newEmailAddress
+                }
+                await user.save()
+
+                res.status(200).send({
+                    type: 'success',
+                    message: 'User credentials updated successfully',
+                })
+            }
+        )
+    } catch (error) {
+        console.log('Server error:', error)
+        res.status(200).send({
+            type: 'error',
+            message: `Server error: ${error.message}`,
+        })
+    }
+})
+
 // User registration
 router.post('/register', async (req, res) => {
     try {
